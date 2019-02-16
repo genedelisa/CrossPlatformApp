@@ -8,9 +8,6 @@
 [![GitHub version](https://badge.fury.io/gh/genedelisa%2FCrossPlatformApp)](https://github.com/genedelisa/CrossPlatformApp)
 [![GitHub stars](https://img.shields.io/github/stars/genedelisa/CrossPlatformApp.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/genedelisa/CrossPlatformApp/stargazers/)
 
-[![Swift 2](https://img.shields.io/badge/swift2-compatible-4BC51D.svg?style=flat")](https://developer.apple.com/swift)
-
-[![Swift 3](https://img.shields.io/badge/swift3-compatible-4BC51D.svg?style=flat")](https://developer.apple.com/swift)
 
 [![Swift 4](https://img.shields.io/badge/swift4-compatible-4BC51D.svg?style=flat")](https://developer.apple.com/swift)
 
@@ -23,12 +20,11 @@
 
 
 
-An example using
-
+A project that shares code between an iOS app and a macOS app.
 
 ## Blog post for this example.
 
-[Blog post](http://www.rockhoppertech.com/blog/)
+[Blog post](http://www.rockhoppertech.com/blog/CrossPlatformApp)
 
 
 ## Bugs
