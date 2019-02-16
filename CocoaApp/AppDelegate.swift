@@ -48,6 +48,7 @@
     
 
 import Cocoa
+import Shared
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -56,6 +57,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
+
+        _ = Thing()
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
