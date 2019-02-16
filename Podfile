@@ -5,7 +5,6 @@ project 'CrossPlatformApp'
 
 def shared_pods
 
-    pod 'GDLog', :path => '/Users/gene/Development/xcode/gene/Swift/mypods/GDLog'
 
 end
 

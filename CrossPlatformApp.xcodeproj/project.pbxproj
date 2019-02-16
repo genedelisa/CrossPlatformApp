@@ -112,6 +112,11 @@
 		B0A917ED2218558200D405F5 /* SharedIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharedIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A917EF2218558200D405F5 /* SharedIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedIOSTests.swift; sourceTree = "<group>"; };
 		B0A917F12218558200D405F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0A9180322185A8800D405F5 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		B0A9180422185ABA00D405F5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B0A9180522185ABA00D405F5 /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
+		B0A9180622185ABA00D405F5 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		B0A9180722185ABB00D405F5 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +172,7 @@
 		B0A917852218537500D405F5 = {
 			isa = PBXGroup;
 			children = (
+				B0A9180222185A6B00D405F5 /* Support Files */,
 				B0A917D6221853F400D405F5 /* SharedSource */,
 				B0A9179F221853BA00D405F5 /* IOSApp */,
 				B0A917B5221853D100D405F5 /* CocoaApp */,
@@ -265,6 +271,18 @@
 			children = (
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		B0A9180222185A6B00D405F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0A9180422185ABA00D405F5 /* README.md */,
+				B0A9180722185ABB00D405F5 /* LICENSE */,
+				B0A9180622185ABA00D405F5 /* CHANGELOG.md */,
+				B0A9180522185ABA00D405F5 /* Gemfile */,
+				B0A9180322185A8800D405F5 /* Podfile */,
+			);
+			name = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
